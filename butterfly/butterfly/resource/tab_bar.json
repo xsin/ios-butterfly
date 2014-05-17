@@ -1,0 +1,30 @@
+{
+    "version":"1.0",
+    "bg":"tabbar_bg.png",
+    "tabs":[{
+            "icon_normal":"msg_gray.png",
+            "icon_active":"msg.png",
+            "url":"http://www.baidu.com",
+            "title":"百度"
+        },
+        {
+            "icon_normal":"pen_gray.png",
+            "icon_active":"pen.png",
+            "url":"http://www.google.com",
+            "title":"谷歌"
+        },
+        {
+            "icon_normal":"map_gray.png",
+            "icon_active":"map.png",
+            "url":"http://www.qq.com",
+            "title":"腾讯"
+        },
+        {
+            "icon_normal":"me_gray.png",
+            "icon_active":"me.png",
+            "url":"http://www.hao123.com",
+            "title":"hao123"
+        }
+            
+    ]
+}
