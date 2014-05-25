@@ -4,26 +4,37 @@
     "tabs":[{
             "icon_normal":"msg_gray.png",
             "icon_active":"msg.png",
-            "url":"http://www.baidu.com",
-            "title":"百度"
+            "url":"http://www.baidu.com/",
+            "title":"百度",
+            "vc":""
         },
         {
             "icon_normal":"pen_gray.png",
             "icon_active":"pen.png",
             "url":"http://www.google.com",
-            "title":"谷歌"
+            "title":"谷歌",
+            "vc":""
         },
         {
             "icon_normal":"map_gray.png",
             "icon_active":"map.png",
             "url":"http://www.qq.com",
-            "title":"腾讯"
+            "title":"腾讯",
+            "vc":""
         },
         {
             "icon_normal":"me_gray.png",
             "icon_active":"me.png",
             "url":"http://www.hao123.com",
-            "title":"hao123"
+            "title":"hao123",
+            "vc":""
+        },
+        {
+            "icon_normal":"me_gray.png",
+            "icon_active":"me.png",
+            "url":"",
+            "title":"个人中心",
+            "vc":"UCViewController"
         }
             
     ]
