@@ -30,12 +30,6 @@
 		34A84413192DC03C001B2F6D /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A8440E192DC03C001B2F6D /* zbar-helpicons.png */; };
 		34A84414192DC03C001B2F6D /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A8440F192DC03C001B2F6D /* zbar-samples.png */; };
 		34A844191930741A001B2F6D /* LoginService.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A844181930741A001B2F6D /* LoginService.m */; };
-		34A8442819307481001B2F6D /* CaptchaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A8441C19307481001B2F6D /* CaptchaViewController.m */; };
-		34A8442919307481001B2F6D /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A8441E19307481001B2F6D /* LoginViewController.m */; };
-		34A8442A19307481001B2F6D /* MainViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34A8442019307481001B2F6D /* MainViewController.mm */; };
-		34A8442B19307481001B2F6D /* QRCodeInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34A8442219307481001B2F6D /* QRCodeInterface.mm */; };
-		34A8442C19307481001B2F6D /* QuickLoginStateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A8442519307481001B2F6D /* QuickLoginStateViewController.m */; };
-		34A8442D19307481001B2F6D /* QuickLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A8442719307481001B2F6D /* QuickLoginViewController.m */; };
 		34A84436193074F2001B2F6D /* AsyncImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A84431193074F2001B2F6D /* AsyncImageView.m */; };
 		34A84437193074F2001B2F6D /* LoggerClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 34A84434193074F2001B2F6D /* LoggerClient.m */; };
 		34A8443819307955001B2F6D /* libZXingWidget.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34A83557192B7614001B2F6D /* libZXingWidget.a */; };
@@ -45,6 +39,12 @@
 		34A8444719308203001B2F6D /* qqpwd_input.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A8444119308203001B2F6D /* qqpwd_input.png */; };
 		34A8444819308203001B2F6D /* register_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A8444219308203001B2F6D /* register_button.png */; };
 		34A8444919308203001B2F6D /* title.png in Resources */ = {isa = PBXBuildFile; fileRef = 34A8444319308203001B2F6D /* title.png */; };
+		34FF9C8D1931CFBF00D21507 /* CaptchaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FF9C811931CFBF00D21507 /* CaptchaViewController.m */; };
+		34FF9C8E1931CFBF00D21507 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FF9C831931CFBF00D21507 /* LoginViewController.m */; };
+		34FF9C8F1931CFBF00D21507 /* MainViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34FF9C851931CFBF00D21507 /* MainViewController.mm */; };
+		34FF9C901931CFBF00D21507 /* QRCodeInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 34FF9C871931CFBF00D21507 /* QRCodeInterface.mm */; };
+		34FF9C911931CFBF00D21507 /* QuickLoginStateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FF9C8A1931CFBF00D21507 /* QuickLoginStateViewController.m */; };
+		34FF9C921931CFBF00D21507 /* QuickLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 34FF9C8C1931CFBF00D21507 /* QuickLoginViewController.m */; };
 		C71B3B651926F2D9004A5B86 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C71B3B631926F2D9004A5B86 /* InfoPlist.strings */; };
 		C71B3B671926F2D9004A5B86 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C71B3B661926F2D9004A5B86 /* main.m */; };
 		C71B3B6B1926F2D9004A5B86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C71B3B6A1926F2D9004A5B86 /* AppDelegate.m */; };
@@ -152,19 +152,6 @@
 		34A8440F192DC03C001B2F6D /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
 		34A844171930741A001B2F6D /* LoginService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginService.h; sourceTree = "<group>"; };
 		34A844181930741A001B2F6D /* LoginService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginService.m; sourceTree = "<group>"; };
-		34A8441B19307481001B2F6D /* CaptchaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptchaViewController.h; sourceTree = "<group>"; };
-		34A8441C19307481001B2F6D /* CaptchaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptchaViewController.m; sourceTree = "<group>"; };
-		34A8441D19307481001B2F6D /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
-		34A8441E19307481001B2F6D /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
-		34A8441F19307481001B2F6D /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		34A8442019307481001B2F6D /* MainViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainViewController.mm; sourceTree = "<group>"; };
-		34A8442119307481001B2F6D /* QRCodeInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeInterface.h; sourceTree = "<group>"; };
-		34A8442219307481001B2F6D /* QRCodeInterface.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QRCodeInterface.mm; sourceTree = "<group>"; };
-		34A8442319307481001B2F6D /* QRCodeInterfaceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeInterfaceProtocol.h; sourceTree = "<group>"; };
-		34A8442419307481001B2F6D /* QuickLoginStateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickLoginStateViewController.h; sourceTree = "<group>"; };
-		34A8442519307481001B2F6D /* QuickLoginStateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickLoginStateViewController.m; sourceTree = "<group>"; };
-		34A8442619307481001B2F6D /* QuickLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickLoginViewController.h; sourceTree = "<group>"; };
-		34A8442719307481001B2F6D /* QuickLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickLoginViewController.m; sourceTree = "<group>"; };
 		34A84430193074F2001B2F6D /* AsyncImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AsyncImageView.h; sourceTree = "<group>"; };
 		34A84431193074F2001B2F6D /* AsyncImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AsyncImageView.m; sourceTree = "<group>"; };
 		34A84433193074F2001B2F6D /* LoggerClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoggerClient.h; sourceTree = "<group>"; };
@@ -176,6 +163,19 @@
 		34A8444119308203001B2F6D /* qqpwd_input.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qqpwd_input.png; sourceTree = "<group>"; };
 		34A8444219308203001B2F6D /* register_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = register_button.png; sourceTree = "<group>"; };
 		34A8444319308203001B2F6D /* title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title.png; sourceTree = "<group>"; };
+		34FF9C801931CFBF00D21507 /* CaptchaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CaptchaViewController.h; sourceTree = "<group>"; };
+		34FF9C811931CFBF00D21507 /* CaptchaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CaptchaViewController.m; sourceTree = "<group>"; };
+		34FF9C821931CFBF00D21507 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		34FF9C831931CFBF00D21507 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		34FF9C841931CFBF00D21507 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		34FF9C851931CFBF00D21507 /* MainViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainViewController.mm; sourceTree = "<group>"; };
+		34FF9C861931CFBF00D21507 /* QRCodeInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeInterface.h; sourceTree = "<group>"; };
+		34FF9C871931CFBF00D21507 /* QRCodeInterface.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = QRCodeInterface.mm; sourceTree = "<group>"; };
+		34FF9C881931CFBF00D21507 /* QRCodeInterfaceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeInterfaceProtocol.h; sourceTree = "<group>"; };
+		34FF9C891931CFBF00D21507 /* QuickLoginStateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickLoginStateViewController.h; sourceTree = "<group>"; };
+		34FF9C8A1931CFBF00D21507 /* QuickLoginStateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickLoginStateViewController.m; sourceTree = "<group>"; };
+		34FF9C8B1931CFBF00D21507 /* QuickLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuickLoginViewController.h; sourceTree = "<group>"; };
+		34FF9C8C1931CFBF00D21507 /* QuickLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuickLoginViewController.m; sourceTree = "<group>"; };
 		C71B3B571926F2D9004A5B86 /* butterfly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = butterfly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71B3B5A1926F2D9004A5B86 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C71B3B5C1926F2D9004A5B86 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -334,26 +334,6 @@
 			path = Logic;
 			sourceTree = "<group>";
 		};
-		34A8441A19307481001B2F6D /* wtloginUI */ = {
-			isa = PBXGroup;
-			children = (
-				34A8441B19307481001B2F6D /* CaptchaViewController.h */,
-				34A8441C19307481001B2F6D /* CaptchaViewController.m */,
-				34A8441D19307481001B2F6D /* LoginViewController.h */,
-				34A8441E19307481001B2F6D /* LoginViewController.m */,
-				34A8441F19307481001B2F6D /* MainViewController.h */,
-				34A8442019307481001B2F6D /* MainViewController.mm */,
-				34A8442119307481001B2F6D /* QRCodeInterface.h */,
-				34A8442219307481001B2F6D /* QRCodeInterface.mm */,
-				34A8442319307481001B2F6D /* QRCodeInterfaceProtocol.h */,
-				34A8442419307481001B2F6D /* QuickLoginStateViewController.h */,
-				34A8442519307481001B2F6D /* QuickLoginStateViewController.m */,
-				34A8442619307481001B2F6D /* QuickLoginViewController.h */,
-				34A8442719307481001B2F6D /* QuickLoginViewController.m */,
-			);
-			path = wtloginUI;
-			sourceTree = "<group>";
-		};
 		34A8442E193074F2001B2F6D /* Common */ = {
 			isa = PBXGroup;
 			children = (
@@ -393,6 +373,41 @@
 				34A8444319308203001B2F6D /* title.png */,
 			);
 			path = LoginViewContrller;
+			sourceTree = "<group>";
+		};
+		34FF9C7F1931CFBF00D21507 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				34FF9C801931CFBF00D21507 /* CaptchaViewController.h */,
+				34FF9C811931CFBF00D21507 /* CaptchaViewController.m */,
+				34FF9C821931CFBF00D21507 /* LoginViewController.h */,
+				34FF9C831931CFBF00D21507 /* LoginViewController.m */,
+				34FF9C841931CFBF00D21507 /* MainViewController.h */,
+				34FF9C851931CFBF00D21507 /* MainViewController.mm */,
+				34FF9C861931CFBF00D21507 /* QRCodeInterface.h */,
+				34FF9C871931CFBF00D21507 /* QRCodeInterface.mm */,
+				34FF9C881931CFBF00D21507 /* QRCodeInterfaceProtocol.h */,
+				34FF9C891931CFBF00D21507 /* QuickLoginStateViewController.h */,
+				34FF9C8A1931CFBF00D21507 /* QuickLoginStateViewController.m */,
+				34FF9C8B1931CFBF00D21507 /* QuickLoginViewController.h */,
+				34FF9C8C1931CFBF00D21507 /* QuickLoginViewController.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		34FF9C931931CFDC00D21507 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				34A8442E193074F2001B2F6D /* Common */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		34FF9C941931CFFB00D21507 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 		C71B3B4E1926F2D9004A5B86 = {
@@ -440,14 +455,15 @@
 		C71B3B601926F2D9004A5B86 /* butterfly */ = {
 			isa = PBXGroup;
 			children = (
-				34A8442E193074F2001B2F6D /* Common */,
-				34A8441A19307481001B2F6D /* wtloginUI */,
-				C7382E2D1927034200A6AD16 /* resource */,
-				C71B3B8A1926FF6A004A5B86 /* controller */,
 				C71B3B691926F2D9004A5B86 /* AppDelegate.h */,
 				C71B3B6A1926F2D9004A5B86 /* AppDelegate.m */,
+				C71B3B8A1926FF6A004A5B86 /* controller */,
 				C71B3B6C1926F2D9004A5B86 /* Images.xcassets */,
+				34FF9C931931CFDC00D21507 /* libs */,
+				34FF9C941931CFFB00D21507 /* model */,
+				C7382E2D1927034200A6AD16 /* resource */,
 				C71B3B611926F2D9004A5B86 /* Supporting Files */,
+				34FF9C7F1931CFBF00D21507 /* view */,
 			);
 			path = butterfly;
 			sourceTree = "<group>";
@@ -676,19 +692,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34A8442C19307481001B2F6D /* QuickLoginStateViewController.m in Sources */,
-				34A8442919307481001B2F6D /* LoginViewController.m in Sources */,
-				34A8442A19307481001B2F6D /* MainViewController.mm in Sources */,
+				34FF9C921931CFBF00D21507 /* QuickLoginViewController.m in Sources */,
+				34FF9C8F1931CFBF00D21507 /* MainViewController.mm in Sources */,
 				34A822D11928C6FC001B2F6D /* UCViewController.m in Sources */,
-				34A8442B19307481001B2F6D /* QRCodeInterface.mm in Sources */,
-				34A8442819307481001B2F6D /* CaptchaViewController.m in Sources */,
+				34FF9C8D1931CFBF00D21507 /* CaptchaViewController.m in Sources */,
 				34A844191930741A001B2F6D /* LoginService.m in Sources */,
 				C71B3B6B1926F2D9004A5B86 /* AppDelegate.m in Sources */,
+				34FF9C901931CFBF00D21507 /* QRCodeInterface.mm in Sources */,
+				34FF9C8E1931CFBF00D21507 /* LoginViewController.m in Sources */,
 				34A843AF192B8383001B2F6D /* CodeViewController.m in Sources */,
 				34A84436193074F2001B2F6D /* AsyncImageView.m in Sources */,
 				34A84437193074F2001B2F6D /* LoggerClient.m in Sources */,
 				C71B3B671926F2D9004A5B86 /* main.m in Sources */,
-				34A8442D19307481001B2F6D /* QuickLoginViewController.m in Sources */,
+				34FF9C911931CFBF00D21507 /* QuickLoginStateViewController.m in Sources */,
 				C71B3B8D1926FF7A004A5B86 /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
