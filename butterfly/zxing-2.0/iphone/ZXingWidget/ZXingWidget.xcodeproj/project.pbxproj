@@ -1488,6 +1488,7 @@
 				LD_GENERATE_MAP_FILE = YES;
 				LD_OPENMP_FLAGS = "-fopenmp";
 				MACH_O_TYPE = staticlib;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = (
 					"-ObjC",
 					"-M",
@@ -1496,6 +1497,7 @@
 				PRODUCT_NAME = ZXingWidget;
 				SEPARATE_STRIP = NO;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -1510,8 +1512,10 @@
 				GCC_THUMB_SUPPORT = NO;
 				HEADER_SEARCH_PATHS = ../../cpp/core/src;
 				INSTALL_PATH = /usr/local/lib;
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = ZXingWidget;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "armv7 armv7s";
 			};
 			name = Release;
 		};

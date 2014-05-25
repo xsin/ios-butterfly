@@ -820,8 +820,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "butterfly/butterfly-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"/Applications/MAMP/htdocs/xsin/ios-butterfly/butterfly/zxing-2.0/iphone/ZXingWidget/Classes/**",
-					"/Applications/MAMP/htdocs/xsin/ios-butterfly/butterfly/zxing-2.0/cpp/core/src",
+					"$(PROJECT_DIR)/zxing-2.0/iphone/ZXingWidget/Classes/**",
+					"$(PROJECT_DIR)/zxing-2.0/cpp/core/src",
 				);
 				INFOPLIST_FILE = "butterfly/butterfly-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -830,6 +830,7 @@
 					"$(PROJECT_DIR)/butterfly/resource/ZBarSDK",
 					"$(SRCROOT)",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
@@ -850,8 +851,8 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "butterfly/butterfly-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"/Applications/MAMP/htdocs/xsin/ios-butterfly/butterfly/zxing-2.0/iphone/ZXingWidget/Classes/**",
-					"/Applications/MAMP/htdocs/xsin/ios-butterfly/butterfly/zxing-2.0/cpp/core/src",
+					"$(PROJECT_DIR)/zxing-2.0/iphone/ZXingWidget/Classes/**",
+					"$(PROJECT_DIR)/zxing-2.0/cpp/core/src",
 				);
 				INFOPLIST_FILE = "butterfly/butterfly-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
@@ -860,6 +861,7 @@
 					"$(PROJECT_DIR)/butterfly/resource/ZBarSDK",
 					"$(SRCROOT)",
 				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				VALID_ARCHS = "armv7 armv7s";
 				WRAPPER_EXTENSION = app;
