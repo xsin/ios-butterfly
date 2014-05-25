@@ -1,0 +1,37 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+#include <libgen.h>
+#import  "LoggerClient.h"
+
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+    #define IOS7 [[[UIDevice currentDevice] systemVersion]floatValue]>=7
+#endif
+
+#define DLog(fmt, args...) do { \
+NSLog(@"[%s][%d]%s " fmt, basename(__FILE__), __LINE__, __func__, ## args); \
+LogMessageF(__FILE__, __LINE__, __FUNCTION__, NULL, 0, @"[%s][%d]%s " fmt, basename(__FILE__), __LINE__, __func__, ## args); \
+} while (0)
+
+#define NSDefaultNotificationCenter [NSNotificationCenter defaultCenter]
+#define MainScreenWidth ([[UIScreen mainScreen] bounds].size.width)
+#define MainScreenHeight ([[UIScreen mainScreen] bounds].size.height)
+
+#define LOGIN_APPID     0x10
+//#define LOGIN_APPID     523005425
+//#define LOGIN_APPID     0x1000b01
+
+#define LOGIN_SUBAPPID  1
+
+#define LOGIN_SIGBITMAP (WLOGIN_GET_A4 | WLOGIN_GET_A5 | WLOGIN_GET_MINIA2 | WLOGIN_GET_A8 | WLOGIN_GET_STWEB | WLOGIN_GET_TGT | WLOGIN_GET_ST | WLOGIN_GET_LSKEY | WLOGIN_GET_D3_1 | WLOGIN_GET_SKEY | WLOGIN_GET_SIG64 | WLOGIN_GET_ST_NEW | WLOGIN_GET_VKEY | WLOGIN_GET_D2 | WLOGIN_GET_SID)
