@@ -7,10 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <WTLoginSDK/WloginSdk_v2.h>
-
-extern WloginSdk_v2 *g_loginSdk;
-
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
 
