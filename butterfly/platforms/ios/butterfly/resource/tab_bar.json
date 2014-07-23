@@ -1,0 +1,41 @@
+{
+    "version":"1.0",
+    "bg":"tabbar_bg.png",
+    "tabs":[{
+            "icon_normal":"msg_gray.png",
+            "icon_active":"msg.png",
+            "url":"dialog.html",
+            "title":"弹窗",
+            "vc":""
+        },
+        {
+            "icon_normal":"pen_gray.png",
+            "icon_active":"pen.png",
+            "url":"loading.html",
+            "title":"loading",
+            "vc":""
+        },
+        {
+            "icon_normal":"map_gray.png",
+            "icon_active":"map.png",
+            "url":"pop.html",
+            "title":"页面切换",
+            "vc":""
+        },
+        {
+            "icon_normal":"me_gray.png",
+            "icon_active":"me.png",
+            "url":"http://www.hao123.com",
+            "title":"hao123",
+            "vc":""
+        },
+        {
+            "icon_normal":"me_gray.png",
+            "icon_active":"me.png",
+            "url":"http://www.hao123.com",
+            "title":"个人中心",
+            "vc":"UCViewController"
+        }
+            
+    ]
+}
